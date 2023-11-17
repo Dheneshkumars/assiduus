@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.70ebe3d5.css",
-    "main.js": "/static/js/main.420bb40e.js",
-    "static/media/girl.jpg": "/static/media/girl.cb3427217c5f2adcb51b.jpg",
-    "static/media/boy.jpg": "/static/media/boy.213ccd17df75bc36461f.jpg",
-    "static/media/icon.webp": "/static/media/icon.a9e92e0f4f84cbd3c47d.webp",
-    "index.html": "/index.html",
-    "main.70ebe3d5.css.map": "/static/css/main.70ebe3d5.css.map",
-    "main.420bb40e.js.map": "/static/js/main.420bb40e.js.map"
+    "main.css": "/assiduus/static/css/main.70ebe3d5.css",
+    "main.js": "/assiduus/static/js/main.f1f8e39b.js",
+    "static/media/girl.jpg": "/assiduus/static/media/girl.cb3427217c5f2adcb51b.jpg",
+    "static/media/boy.jpg": "/assiduus/static/media/boy.213ccd17df75bc36461f.jpg",
+    "static/media/icon.webp": "/assiduus/static/media/icon.a9e92e0f4f84cbd3c47d.webp",
+    "index.html": "/assiduus/index.html",
+    "main.70ebe3d5.css.map": "/assiduus/static/css/main.70ebe3d5.css.map",
+    "main.f1f8e39b.js.map": "/assiduus/static/js/main.f1f8e39b.js.map"
   },
   "entrypoints": [
     "static/css/main.70ebe3d5.css",
-    "static/js/main.420bb40e.js"
+    "static/js/main.f1f8e39b.js"
   ]
 }
