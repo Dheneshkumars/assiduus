@@ -75,7 +75,7 @@ const Header = () => {
                     </div>
                     :
                     <h3 className="dash_title">
-                        <img src={icon} className="icon_img" alt="icon" />
+                        <img src={icon} className="icon_img" width={'50px'} alt="icon" />
                         <span className='head_title'>ASSIDUUS</span>
                         <span className='top_head'>Tm</span>
                     </h3>
