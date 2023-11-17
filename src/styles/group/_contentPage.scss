@@ -1,0 +1,62 @@
+.content_page {
+    width: 100%;
+    padding: 15px;
+    background-color: #ededed !important;
+
+    @include media-min-md {
+        width: 84%;
+        flex: 1;
+        overflow-y: auto;
+        padding: 25px;
+    }
+
+    .content_page_parent {
+        .chart-container {
+            background-color: #FFFFFF !important;
+            margin-bottom: 15px;
+            padding: 0px;
+
+            @include media-min-md {
+                margin-left: 20px;
+                margin-bottom: 15px;
+                width: 46%;
+            }
+
+            .wavechart {
+                width: 100%;
+            }
+
+            .newsale-btn {
+                font-size: 14px;
+                font-weight: 500;
+                background-color: #E8EEFD;
+            }
+
+            .box-dark,
+            .box-light {
+                width: 15px;
+                height: 15px;
+                display: inline-block;
+                margin:0px  5px;
+                border-radius: 4px;
+            }
+
+            .box-light {
+                background-color: lightgreen;
+            }
+
+            .box-dark {
+                background-color: darkgreen;
+            }
+        }
+        .chart-title{
+            font-size: 18px;
+            font-weight: 800;
+        }
+        .manage {
+            background-color: #FFFFFF;
+            padding: 15px 10px;
+            border-bottom: 2px solid #ededed;
+        }
+    }
+}

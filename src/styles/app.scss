@@ -1,0 +1,60 @@
+// Start : Includes 
+//======================================//
+@import "./mixin/breakpoints";
+// End : Includes 
+//======================================//
+
+// Start : Base components
+//======================================//
+@import "./base/dropdown";
+// End : Base components
+//======================================//
+
+// Start : Group components
+//======================================//
+
+// End : Group components
+//======================================//
+@import "./group/dashboard";
+@import "./group/contentPage";
+@import "./group/header";
+//======================================//
+
+// Start : Page components
+//======================================//
+@import "./page/error";
+// End : Page components
+//======================================//
+
+body {
+    font-family: "Rubik", sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+    ul {
+        list-style-type: none;
+        padding: 0%;
+    }
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.app_child {
+    display: block;
+    @include media-min-md {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+    }
+}
+
+table th{
+    color:#C5C7C9 !important;
+}
+table td{
+    padding:2px 15px !important;
+}

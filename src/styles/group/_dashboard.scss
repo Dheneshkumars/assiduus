@@ -1,0 +1,38 @@
+.dash_board {
+    width: 100%;
+    background-color: #ffffff;
+
+    @include media-min-md {
+        width: 16%;
+        overflow-y: auto;
+    }
+
+    .dash_menu {
+        margin-top: 10px;
+        list-style: none;
+        padding: 0;
+        @include media-min-md{
+            margin-top: 35px;
+        }
+    }
+
+    .dash_menu li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding: .5rem 0 .5rem 3rem;
+    }
+
+    .dash_menu li span {
+        padding-right: 1rem;
+    }
+
+    .dash_menu li:hover {
+        cursor: pointer;
+    }
+
+    .dash_menu li.selected {
+        background-color: #47B747;
+        color: white;
+    }
+}
